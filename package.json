@@ -1,0 +1,10 @@
+{
+  "name": "apartmentwilio",
+  "version": "1.0.0",
+  "description": "Apartment front door automation",
+  "main": "index.js",
+  "repository": "https://github.com/francoiscampbell/apartmentwilio",
+  "author": "Francois Campbell",
+  "license": "MIT",
+  "private": false
+}
