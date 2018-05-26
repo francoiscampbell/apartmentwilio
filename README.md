@@ -3,7 +3,7 @@ Apartment lobby door automation
 
 ## Use this as a Twilio serverless function
 
-1. Add the package to your Functions environment and enable ACCOUNT_SID and AUTH_TOKEN: https://www.twilio.com/console/runtime/functions/configure
+1. Add the package to your Functions environment and enable ACCOUNT_SID and AUTH_TOKEN: https://www.twilio.com/console/runtime/functions/configure (you may have to hit Save twice, make sure the deployed banner appears)
 2. Create a new Twilio Function: https://www.twilio.com/console/runtime/functions/manage
 3. Set your handler:
 
