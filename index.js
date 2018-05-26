@@ -29,7 +29,7 @@ module.exports = function(options) {
 	const smsOptions = options.sms
 	if (smsOptions) {
 		invariant(Array.isArray(smsOptions.to), 'options.sms.to must be an Array')
-		invariant(!smsTo === !smsFrom, 'options.sms.to and options.sms.from must both be specified')
+		invariant(!smsOptions.to === !smsOptions.from, 'options.sms.to and options.sms.from must both be specified')
 		const smsText = smsOptions.text || defaultSmsText
 
 		return function(context, event, callback) {
