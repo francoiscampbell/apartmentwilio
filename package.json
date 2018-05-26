@@ -1,6 +1,6 @@
 {
   "name": "apartmentwilio",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Apartment lobby door automation",
   "main": "index.js",
   "repository": "https://github.com/francoiscampbell/apartmentwilio",
