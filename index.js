@@ -45,3 +45,5 @@ module.exports = function(options) {
 	    callback(null, getDialResponse(unlockDigits))
 	}
 }
+
+module.exports.version = '1.1.0'
